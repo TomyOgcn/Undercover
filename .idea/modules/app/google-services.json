@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875571309224",
+    "firebase_url": "https://undercover-841e9.firebaseio.com",
+    "project_id": "undercover-841e9",
+    "storage_bucket": "undercover-841e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875571309224:android:d819263c45b67bbb3eb09d",
+        "android_client_info": {
+          "package_name": "com.example.undercover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875571309224-n6v85spfjc3kc9q30d5nj61oilpf62j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.undercover",
+            "certificate_hash": "d3bf4191afa85ba0539f7d0540d7b1dfebe12fe5"
+          }
+        },
+        {
+          "client_id": "875571309224-r2ktnj4a1arrstc7baflkmctnldd06et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwksI7KYV3zUE__S8AD-WfsKulxEppflc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875571309224-r2ktnj4a1arrstc7baflkmctnldd06et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

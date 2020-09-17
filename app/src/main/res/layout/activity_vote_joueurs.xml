@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.VoteJoueurs"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_vote_joueurs_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:textSize="25sp"
+        android:layout_weight="4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_vote_joueurs_passer_au_vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passer au vote" />
+
+    </LinearLayout>
+
+</LinearLayout>

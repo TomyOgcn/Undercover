@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.MinuteurDiscussion"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_minuteur_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:text="00:00"
+            android:textSize="60sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/activity_minuteur_start_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start/Pause"/>
+            <Button
+                android:id="@+id/activity_minuteur_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity_minuteur_fin_chrono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fin Chrono"/>
+
+        </LinearLayout>
+
+   </LinearLayout>
+
+
+</LinearLayout>

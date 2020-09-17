@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ChoixNbJoueurs"
+    android:orientation="vertical"
+    android:id="@+id/testLayout">
+
+    <TextView
+        android:id="@+id/activity_choix_nb_joueurs_text_nb_joueurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:textSize="25sp"
+        android:layout_weight="4"
+        android:text="Nombre de Joueurs : "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_boutton_moins_joueurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moins" />
+
+        <TextView
+            android:id="@+id/activity_choix_nb_joueurs_choix_nb_joueurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"/>
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_bouton_plus_joueurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_choix_nb_joueurs_text_nb_civils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_weight="2"
+        android:text="Nombre de Civils : "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_choix_nb_joueurs_choix_nb_civils"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_choix_nb_joueurs_text_nb_undercover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_weight="2"
+        android:text="Nombre d'Undercover : "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_boutton_moins_undercover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moins" />
+
+        <TextView
+            android:id="@+id/activity_choix_nb_joueurs_choix_nb_undecover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"/>
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_bouton_plus_undercover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_choix_nb_joueurs_text_nb_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_weight="2"
+        android:text="Nombre de White : "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_boutton_moins_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moins" />
+
+        <TextView
+            android:id="@+id/activity_choix_nb_joueurs_choix_nb_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"/>
+
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_bouton_plus_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/activity_choix_nb_joueurs_bouton_lancer_jeux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LANCER JEUX"/>
+    </LinearLayout>
+
+</LinearLayout>
